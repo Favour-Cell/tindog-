@@ -1,0 +1,145 @@
+/* title section */
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat-Black', sans-serif;
+   
+}
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+/* navigation bar */
+
+.navbar-brand{
+    font-family: 'ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 0 0 4.5rem;
+}
+.nav-item{
+padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: 'montserrat-light', sans-serif;
+}
+/* download buttons */
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+/* title image */
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+@media (max-width: 1050px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+} 
+
+/* icon layout */
+
+i{
+    color: #ef8172;
+    margin-bottom: 1rem;
+    
+}
+#features{
+    text-align: center;
+    padding: 5% 10%;
+    background-color: #fff;
+    position: relative;
+    
+}
+.font{
+    color: #8f8f8f;
+}
+.easy{
+    font-size: 1.5rem;
+}
+i:hover {
+    color: #ff4c68;
+}
+h3{
+    font-family: 'montserrat-bold', sans-serif; 
+}
+/* testimonial section */
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 20%;
+    margin: 20px 10px 50px;
+}
+.carousel-item{
+    padding: 5% 10%;
+}
+
+/* pricing section */
+#pricing{
+    padding:100px;
+    text-align: center;
+}
+.pricing-column {
+    padding:3% 2%;
+
+}
+/* cta section */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 5% 0 1%;
+
+
+}
+#find{
+    font-family:'montserrat-black', sans-serif;
+    font-size: 2.5rem;
+    color: #fff;
+    line-height: 1.5;
+}
+/* footer section */
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 5% 0;
+}
+.f-icons{
+    padding: 1% 1%;
+}
+#copy{
+    color: #8f8f8f;
+}
